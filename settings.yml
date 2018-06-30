@@ -1,0 +1,18 @@
+ios_pwa_background_color:
+  default: "#ffffff"
+  description: "Background color for the bottom navigation bar"
+ios_pwa_font_color:
+  default: "#000000"
+  description: "Font color for the bottom navigation bar"
+ios_pwa_icon_1:
+  default: "fa-home"
+  description: "FontAwesome icon for first navigation icon"
+ios_pwa_icon_2:
+  default: "fa-home"
+  description: "FontAwesome icon for second navigation icon"
+ios_pwa_icon_3:
+  default: "fa-home"
+  description: "FontAwesome icon for third navigation icon"
+ios_pwa_icon_4:
+  default: "fa-home"
+  description: "FontAwesome icon for fourth navigation icon"

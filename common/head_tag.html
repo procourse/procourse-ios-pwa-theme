@@ -1,0 +1,12 @@
+<script type="text/discourse-plugin" version="0.8">
+    api.createWidget('ios-pwa-navigation-bar', {
+        tagName: 'div.ios-pwa-navigation',
+      
+        html(attrs) {
+          return api.h('ul', [api.h('li', api.h('a', "no way")),api.h('li', api.h('a', "no way")),api.h('li', api.h('a', "no way")),api.h('li', api.h('a', "no way"))]);
+        }
+    });
+</script>
+<script type='text/x-handlebars' data-template-name='/connectors/below-footer/ios-pwa-navigation'>
+{{mount-widget widget="ios-pwa-navigation-bar" args=model}}
+</script>
