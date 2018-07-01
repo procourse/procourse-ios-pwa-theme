@@ -1,30 +1,30 @@
-ios_pwa_background_color:
+mobile_pwa_background_color:
   default: "#ffffff"
   description: "Background color for the bottom navigation bar"
-ios_pwa_font_color:
+mobile_pwa_font_color:
   default: "#000000"
   description: "Font color for the bottom navigation bar"
-ios_pwa_icon_1:
+mobile_pwa_icon_1:
   default: "fa-home"
   description: "FontAwesome icon for first navigation icon"
-ios_pwa_icon_1_url:
+mobile_pwa_icon_1_url:
   default: "/"
   description: "URL for first navigation icon"
-ios_pwa_icon_2:
+mobile_pwa_icon_2:
   default: "fa-search"
   description: "FontAwesome icon for second navigation icon"
-ios_pwa_icon_2_url:
+mobile_pwa_icon_2_url:
   default: "/search"
   description: "URL for second navigation icon"
-ios_pwa_icon_3:
+mobile_pwa_icon_3:
   default: "fa-comment"
   description: "FontAwesome icon for third navigation icon"
-ios_pwa_icon_3_url:
+mobile_pwa_icon_3_url:
   default: "/my/notifications"
   description: "URL for third navigation icon"
-ios_pwa_icon_4:
+mobile_pwa_icon_4:
   default: "fa-envelope"
   description: "FontAwesome icon for fourth navigation icon"
-ios_pwa_icon_4_url:
+mobile_pwa_icon_4_url:
   default: "/my/messages"
   description: "URL for fourth navigation icon"
