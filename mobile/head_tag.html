@@ -1,16 +1,16 @@
 <script type="text/discourse-plugin" version="0.8">
-    api.createWidget('ios-pwa-navigation-bar', {
-        tagName: 'div.ios-pwa-navigation',
-      
-        html(attrs) {
-          return api.h('ul', [
-            api.h('li', api.h('a', { attributes: { href: settings.ios_pwa_icon_1_url } }, "hi")),
-            api.h('li', api.h('a', { attributes: { href: settings.ios_pwa_icon_2_url } }, "hi")),
-            api.h('li', api.h('a', { attributes: { href: settings.ios_pwa_icon_3_url } }, "hi")),
-            api.h('li', api.h('a', { attributes: { href: settings.ios_pwa_icon_4_url } }, "hi"))
-          ]);
-        }
-    });
+api.createWidget('ios-pwa-navigation-bar', {
+    tagName: 'div.ios-pwa-navigation',
+  
+    html(attrs) {
+      return api.h('ul', [
+        api.h('li', api.h('a', { attributes: { href: settings.ios_pwa_icon_1_url } }, api.h('i.fa.' + settings.ios_pwa_icon_1))),
+        api.h('li', api.h('a', { attributes: { href: settings.ios_pwa_icon_2_url } }, api.h('i.fa.' + settings.ios_pwa_icon_2))),
+        api.h('li', api.h('a', { attributes: { href: settings.ios_pwa_icon_3_url } }, api.h('i.fa.' + settings.ios_pwa_icon_3))),
+        api.h('li', api.h('a', { attributes: { href: settings.ios_pwa_icon_4_url } }, api.h('i.fa.' + settings.ios_pwa_icon_4)))
+      ]);
+    }
+});
 </script>
 <script type='text/x-handlebars' data-template-name='/connectors/below-footer/ios-pwa-navigation'>
 {{mount-widget widget="ios-pwa-navigation-bar" args=model}}

@@ -11,20 +11,20 @@ ios_pwa_icon_1_url:
   default: "/"
   description: "URL for first navigation icon"
 ios_pwa_icon_2:
-  default: "fa-home"
+  default: "fa-search"
   description: "FontAwesome icon for second navigation icon"
 ios_pwa_icon_2_url:
-  default: "/"
+  default: "/search"
   description: "URL for second navigation icon"
 ios_pwa_icon_3:
-  default: "fa-home"
+  default: "fa-comment"
   description: "FontAwesome icon for third navigation icon"
 ios_pwa_icon_3_url:
-  default: "/"
+  default: "/my/notifications"
   description: "URL for third navigation icon"
 ios_pwa_icon_4:
-  default: "fa-home"
+  default: "fa-envelope"
   description: "FontAwesome icon for fourth navigation icon"
 ios_pwa_icon_4_url:
-  default: "/"
+  default: "/my/messages"
   description: "URL for fourth navigation icon"
