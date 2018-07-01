@@ -36,8 +36,11 @@
         }
     }
     .mobile-pwa-back-button{
-        display: inline-block;
+        display: none;
         font-size: 2em;
         padding-right: 15px;
+    }
+    &.show-pwa-back-button .mobile-pwa-back-button{
+        display:inline-block;
     }
 }

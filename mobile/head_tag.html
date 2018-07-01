@@ -16,12 +16,7 @@ api.createWidget('mobile-pwa-back-button', {
     tagName: 'div.mobile-pwa-back-button',
   
     html(attrs) {
-        if ( window.location.pathname !== '/' ){
-            return api.h('i.fa.fa-chevron-left');
-        }
-        else{
-            return null;
-        }
+        return api.h('i.fa.fa-chevron-left');
     },
     
     click() {
@@ -32,6 +27,14 @@ api.createWidget('mobile-pwa-back-button', {
 api.decorateWidget('home-logo:before', helper => {
     return helper.attach('mobile-pwa-back-button');
 });
+api.onPageChange((url, title) => {
+      if (url == "/"){
+        $('body').removeClass('show-pwa-back-button');
+      }
+      else{
+        $('body').addClass('show-pwa-back-button');
+      }
+    });
 
 </script>
 <script type='text/x-handlebars' data-template-name='/connectors/below-footer/mobile-pwa-navigation'>
