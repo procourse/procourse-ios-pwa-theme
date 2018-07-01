@@ -3,7 +3,12 @@
         tagName: 'div.ios-pwa-navigation',
       
         html(attrs) {
-          return api.h('ul', [api.h('li', api.h('a', "no way")),api.h('li', api.h('a', "no way")),api.h('li', api.h('a', "no way")),api.h('li', api.h('a', "no way"))]);
+          return api.h('ul', [
+            api.h('li', api.h('a', { attributes: { href: settings.ios_pwa_icon_1_url } }, "hi")),
+            api.h('li', api.h('a', { attributes: { href: settings.ios_pwa_icon_2_url } }, "hi")),
+            api.h('li', api.h('a', { attributes: { href: settings.ios_pwa_icon_3_url } }, "hi")),
+            api.h('li', api.h('a', { attributes: { href: settings.ios_pwa_icon_4_url } }, "hi"))
+          ]);
         }
     });
 </script>

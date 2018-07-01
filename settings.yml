@@ -7,12 +7,24 @@ ios_pwa_font_color:
 ios_pwa_icon_1:
   default: "fa-home"
   description: "FontAwesome icon for first navigation icon"
+ios_pwa_icon_1_url:
+  default: "/"
+  description: "URL for first navigation icon"
 ios_pwa_icon_2:
   default: "fa-home"
   description: "FontAwesome icon for second navigation icon"
+ios_pwa_icon_2_url:
+  default: "/"
+  description: "URL for second navigation icon"
 ios_pwa_icon_3:
   default: "fa-home"
   description: "FontAwesome icon for third navigation icon"
+ios_pwa_icon_3_url:
+  default: "/"
+  description: "URL for third navigation icon"
 ios_pwa_icon_4:
   default: "fa-home"
   description: "FontAwesome icon for fourth navigation icon"
+ios_pwa_icon_4_url:
+  default: "/"
+  description: "URL for fourth navigation icon"
