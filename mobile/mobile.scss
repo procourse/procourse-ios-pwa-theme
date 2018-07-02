@@ -1,6 +1,11 @@
 .mobile-pwa-navigation{
     display:none;
 }
+.mobile-pwa-back-button{
+    display: none;
+    font-size: 2em;
+    padding-right: 15px;
+}
 
 .mobile-pwa-theme{
     .mobile-pwa-navigation{
@@ -34,11 +39,6 @@
                 }
             }
         }
-    }
-    .mobile-pwa-back-button{
-        display: none;
-        font-size: 2em;
-        padding-right: 15px;
     }
     &.show-pwa-back-button .mobile-pwa-back-button{
         display:inline-block;
