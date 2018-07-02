@@ -12,7 +12,7 @@
         background:$mobile_pwa_background_color;
         bottom:0px;
         display:block;
-        height:70px;
+        height:50px;
         position: fixed;
         width:100%;
         z-index:1000;
@@ -34,7 +34,7 @@
                     display:block;
                     font-size:24px;
                     height:100%;
-                    padding:5px 0px;
+                    padding:10px 0px;
                     width:100%;
                 }
             }
@@ -43,7 +43,22 @@
     &.show-pwa-back-button .mobile-pwa-back-button{
         display:inline-block;
     }
+    #main-outlet{
+        padding-bottom:85px;
+    }
 }
-#main-outlet{
-    padding-bottom:85px;
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+    .mobile-pwa-theme{
+        .mobile-pwa-navigation{
+            height:70px;
+
+            ul li a {
+                padding: 5px 0px;
+            }
+        }
+    }
 }
